@@ -1,13 +1,13 @@
-.formStyle{
-    width: 60%;
-    margin: 0;
+.FormStyle {
+    width: 40%;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
     background-color: gray;
     padding: 32px;
     gap: 8px;
-input[type= "submit" ]{
-
-    color:green
-}
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 15%;
 }

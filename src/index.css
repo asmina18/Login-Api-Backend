@@ -1,12 +1,14 @@
-body{
+/* body{
   box-sizing: border-box;
   scroll-behavior: smooth;
-  min-height: 100vh;
+  margin-top: 10%;
+  
+
+  
   display: flex;
   flex-direction: column;
 }
-
 *{
   margin: 0;
   padding: 0;
-}
+} */

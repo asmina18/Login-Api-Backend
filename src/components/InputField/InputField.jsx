@@ -9,9 +9,7 @@ export const InputField = (props)=>{
         // Hvis label true - så indsæt er label 
         <>
           {props.labelText && 
-
-          <label className={style.inputStyle}>{props.labelText}</label>}
-          
+          (<label className={style.inputStyle}>{props.labelText}</label>)}
         <input className={style.inputStyle}
          type={props.type}
          name={props.name} 

@@ -1,12 +1,6 @@
 {
     "form": [
-        {
-            "name": "name",
-            "required": "false",
-            "type": "text",
-            "placeholder": "Write your firstname",
-            "labelText": "Firstname"
-        },
+   
         {
             "name": "email",
             "required": "false",
@@ -22,7 +16,7 @@
             "labelText": "Password"
         },
         {
-            "value": "Log in",
+            "value": "submit",
             "type": "submit"
         }
     ]

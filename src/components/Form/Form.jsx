@@ -3,8 +3,13 @@ import style from "../Form/form.module.scss";
 
 export const Form =(props)=>{
     return(
-        <form className={style.formStyle} onSubmit={(e)=> props.submitAction(e)}>{props.children}
         
-        </form>
-    )
+    
+            <form className={style.FormStyle} onSubmit={(e)=> props.submitAction(e)}>
+                {props.children}
+            </form>
+
+        )
+
+
 }
